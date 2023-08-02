@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878577123175",
+    "project_id": "fir-athu-eadf1",
+    "storage_bucket": "fir-athu-eadf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878577123175:android:e9869adb50100fbfc079c2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication.firebaseathu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878577123175-l6j9mjj70t8p5aren7ap83q1qnki80nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQYnu-4qvzlrWkpPNIHhUwtQQimF39z9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878577123175-eb0al07v2joisjnlngo3qq0k495k9074.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
