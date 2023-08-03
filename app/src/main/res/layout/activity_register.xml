@@ -88,7 +88,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
 
             <EditText
-                android:id="@+id/inputConformPassword"
+                android:id="@+id/inputConfirmPassword"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
@@ -96,7 +96,7 @@
                 android:drawableLeft="@drawable/baseline_security_24"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="Conform Password"
+                android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:paddingLeft="20dp"
                 android:paddingTop="13dp"
@@ -118,10 +118,10 @@
                 android:background="@drawable/input_bg"
                 android:text="Sign Up"
                 android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="@+id/inputConformPassword"
+                app:layout_constraintEnd_toEndOf="@+id/inputConfirmPassword"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/inputConformPassword"
-                app:layout_constraintTop_toBottomOf="@+id/inputConformPassword" />
+                app:layout_constraintStart_toStartOf="@+id/inputConfirmPassword"
+                app:layout_constraintTop_toBottomOf="@+id/inputConfirmPassword" />
 
             <TextView
                 android:id="@+id/alreadyHaveAccount"
