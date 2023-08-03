@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView createNewAccount;
     EditText inputEmail, inputPassword;
+    ImageView btnGoogle;
     Button btnLogin;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     ProgressDialog progressDialog;
@@ -41,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         inputEmail = findViewById(R.id.inputEmail);
         inputPassword = findViewById(R.id.inputPassward);
         btnLogin = findViewById(R.id.btnLogin);
+        btnGoogle = findViewById(R.id.btnGoogle);
+
+
+
         progressDialog = new ProgressDialog(this);
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();
@@ -60,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
                 performLogin();
             }
         });
+
+        btnGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GoogleSignInActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void performLogin() {
