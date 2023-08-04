@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView createNewAccount;
     EditText inputEmail, inputPassword;
-    ImageView btnGoogle;
+    ImageView btnGoogle, btnFacebook;
     Button btnLogin;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     ProgressDialog progressDialog;
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         inputPassword = findViewById(R.id.inputPassward);
         btnLogin = findViewById(R.id.btnLogin);
         btnGoogle = findViewById(R.id.btnGoogle);
+        btnFacebook = findViewById(R.id.btnFacebook);
 
 
 
@@ -71,6 +72,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, GoogleSignInActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FacebookLoginActivity.class);
                 startActivity(intent);
             }
         });
