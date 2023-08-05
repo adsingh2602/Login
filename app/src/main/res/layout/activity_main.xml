@@ -177,7 +177,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view4"
                 app:layout_constraintVertical_bias="1.0"
-                app:srcCompat="@drawable/img" />
+                app:srcCompat="@drawable/google" />
 
             <ImageView
                 android:id="@+id/btnFacebook"
@@ -192,8 +192,7 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/btnGmail"
                 app:layout_constraintTop_toTopOf="@+id/btnGitHub"
-                app:srcCompat="@drawable/facebook"
-                tools:srcCompat="@drawable/facebook" />
+                app:srcCompat="@drawable/fb" />
 
             <ImageView
                 android:id="@+id/btnGitHub"
@@ -207,7 +206,7 @@
                 app:layout_constraintStart_toEndOf="@+id/btnFacebook"
                 app:layout_constraintTop_toBottomOf="@+id/view5"
                 app:layout_constraintVertical_bias="1.0"
-                app:srcCompat="@drawable/githut" />
+                app:srcCompat="@drawable/img_31" />
 
             <ImageView
                 android:id="@+id/btnGmail"
@@ -221,7 +220,7 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/btnGoogle"
                 app:layout_constraintTop_toTopOf="@+id/btnGoogle"
-                app:srcCompat="@drawable/email" />
+                app:srcCompat="@drawable/phn" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
